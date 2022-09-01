@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Playing for 10000 days.</title>
+		<style>
+			.center {
+				text-align:center;
+			}
+			
+			.time-reamining, .played {
+				background:blue;
+				color:white;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				width:230px;
+				height:100px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="center">10000 Days Click Counter</h1>
+		<h2 id="count" class="center">0</h2>
+		<input onblur="counter += 1" type="text">
+		<h2>Time Reamming</h2>
+		<div class="time-reamining">
+			<h3 id="day">10000</h3>
+			<h4>:</h4>
+			<h3 id="hour">0</h3>
+			<h4>:</h4>
+			<h3 id="minute">0</h3>
+			<h4>:</h4>
+			<h3 id="second">0</h3>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
